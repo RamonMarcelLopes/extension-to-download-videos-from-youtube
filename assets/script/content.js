@@ -27,8 +27,8 @@ function AddYT() {
     addButton.style.width = "100%";
     addButton.style.cursor = "pointer";
     addButton.style.height = "inherit";
-    addButton.style.backgroundColor = "#c00";
-    addButton.style.color = "#ffffff";
+    addButton.style.backgroundColor = "#00a000";
+    addButton.style.color = "#000000";
     addButton.style.padding = "10px 22px";
     addButton.style.margin = "0px 0px";
     addButton.style.border = "0";
