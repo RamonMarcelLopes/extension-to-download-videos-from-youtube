@@ -1,23 +1,21 @@
 {
-	"name": "youtube atalhos",
-	"version": "1.0.0",
-	"description": "extensão que traz alguns atalhos para youtube - em desenvolvimento",
-	"author": "jacare de rua",
-	"icons": { "48": "./assets/img/logoyt.png" },
-	"browser_action":{
-		"default_title": "youtube.jacarederua",
-		"default_popup": "popup.html",
-		"default_icon": "./assets/img/logoyt.png"
-	},
-	"permissions": [
-		  "storage"
-        ],
-	"content_scripts": [
+  "name": "youtube atalhos",
+  "version": "1.0.0",
+  "description": "extensão que traz alguns atalhos para youtube - em desenvolvimento",
+  "author": "jacare de rua",
+  "icons": { "48": "./assets/img/logoyt.png" },
+  "browser_action": {
+    "default_title": "youtube.jacarederua",
+    "default_popup": "popup.html",
+    "default_icon": "./assets/img/logoyt.png"
+  },
+  "permissions": ["storage"],
+  "content_scripts": [
     {
-        "matches": ["https://www.youtube.com/*", "https://www.youtube.com/*"],
-        "css": ["./assets/css/content.css"],
-        "js": ["./assets/script/content.js"]
+      "matches": ["https://www.youtube.com/*", "https://www.youtube.com/*"],
+      "css": ["./assets/css/content.css"],
+      "js": ["./assets/script/content.js"]
     }
-],
-	"manifest_version": 2
+  ],
+  "manifest_version": 2
 }
